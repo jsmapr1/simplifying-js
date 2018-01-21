@@ -1,0 +1,23 @@
+.main {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+button {
+    border: black solid 1px;
+    background: #ffffff;
+}
+
+.menu {
+    width: 300px;
+    padding: 0 2em;
+    float: right;
+    border: black solid 1px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: calc(100% - 2px);
+    background: #ffffff;
+}

@@ -1,0 +1,15 @@
+.main {
+    width: 100%;
+}
+
+.app {
+    padding: 1em;
+}
+
+footer {
+    margin: 2em 0 0 0;
+    padding: 1em;
+    width: 100%;
+    height: 3em;
+    border-top: black solid 1px;
+}

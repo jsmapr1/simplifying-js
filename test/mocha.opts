@@ -1,2 +1,2 @@
-code/**/*.spec.js
+./*/{,!(component|css|build|npm)/**/}/*.spec.js
 --recursive

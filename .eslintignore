@@ -1,1 +1,10 @@
-code/functions/arrow/close.js
+functions/arrow/close.js
+architecture/build/css/node_modules
+architecture/build/css/build
+architecture/build/img/node_modules
+architecture/build/img/build
+architecture/build/initial/node_modules
+architecture/build/initial/build
+architecture/build/webpack/node_modules
+architecture/build/webpack/build
+architecture/component/simplifying-js-component/node_modules
