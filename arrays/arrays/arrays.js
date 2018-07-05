@@ -86,8 +86,8 @@ const dogPair = [
   ['color', 'black'],
 ];
 
-function getName(dog) {
-  return dog.find(attribute => {
+function getName(dogPair) {
+  return dogPair.find(attribute => {
     return attribute[0] === 'name';
   })[1];
 }
