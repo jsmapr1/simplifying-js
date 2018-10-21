@@ -53,4 +53,28 @@ describe('spread operator', () => {
     expect(formatBook(...values)).toEqual('Reasons and Persons by Derek Parfit $19.99');
     expect(formatBook(...Object.values(book))).toEqual('Reasons and Persons by Derek Parfit $19.99');
   });
+
+  it('should not modify with a loop', () => {
+    const before = ['apple', 'banana', 'orange'];
+    const after = ['apple', 'banana', 'orange'];
+    expect(removeItemProblem(before, 'peach')).toEqual(after);
+  });
+
+  it('should not modify with a slice', () => {
+    const before = ['apple', 'banana', 'orange'];
+    const after = ['apple', 'banana', 'orange'];
+    expect(removeItemSlice(before, 'peach')).toEqual(after);
+  });
+
+  it('should not modify with a splice', () => {
+    const before = ['apple', 'banana', 'orange'];
+    const after = ['apple', 'banana', 'orange'];
+    expect(removeItemSplice(before, 'peach')).toEqual(after);
+  });
+
+  it('should not modify with a spread', () => {
+    const before = ['apple', 'banana', 'orange'];
+    const after = ['apple', 'banana', 'orange'];
+    expect(removeItem(before, 'peach')).toEqual(after);
+  });
 });
