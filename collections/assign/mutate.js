@@ -32,8 +32,8 @@ Object.assign(defaults, anotherBook);
 
 // {
 //   author: 'Joe Morgan',
-//   title: 'Simplifying JavaScript',
-//   year: 2017,
+//   title: 'Another book',
+//   year: 2016,
 //   rating: null,
 // }
 //  # END:mutate2

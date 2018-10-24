@@ -29,9 +29,11 @@ describe('Assign tests', () => {
     const bookUpdated = Object.assign(copy, book);
     expect(bookUpdated.title).toEqual('Simplifying JavaScript');
     expect(bookUpdated.author).toEqual('Joe Morgan');
+    expect(bookUpdated.year).toEqual(2017);
     const bookUpdated2 = Object.assign(copy, book2);
     expect(bookUpdated2.title).toEqual('Another book');
     expect(bookUpdated2.author).toEqual('Joe Morgan');
+    expect(bookUpdated2.year).toEqual(2016);
   });
 
   it('should add defaults with assign', () => {
