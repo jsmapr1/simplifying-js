@@ -1,8 +1,10 @@
 /* eslint-disable no-unused-vars */
 //  # START:removeItemSplice
 function removeItem(items, removable) {
-  const index = items.indexOf(removable);
-  items.splice(index, 1);
+  if (items.includes(removable)) {
+    const index = items.indexOf(removable);
+    items.splice(index, 1);
+  }
   return items;
 }
 //  # END:removeItemSplice
